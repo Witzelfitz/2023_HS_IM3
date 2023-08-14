@@ -1,10 +1,11 @@
-# 05 Supabase Einführung
+# 08 Supabase Einführung
 
 ## Input Theorie
-- [05 Link zur Vorlesung](https://docs.google.com/presentation/d/1Xum0e8ylYQ6qoRWGev9AGsmoMA0DzhChEzxArp5KAdk/edit?usp=sharing)
+- [08 Link zur Vorlesung](https://docs.google.com/presentation/d/1Xum0e8ylYQ6qoRWGev9AGsmoMA0DzhChEzxArp5KAdk/edit?usp=sharing)
 
 ## Hands-On
 
-- [Walkthrough Supabase Projekt-Aufsetzen]()
+- [Walkthrough Supabase Projekt-Aufsetzen](02_Unterlagen/walkthrough.md)
+- [Link Verbindungsdaten fürs Setup kopieren](https://supabase.com/dashboard/project/acojzxdhnsvgamrqtbhn/settings/api)
 - [Übung Film-Datenbank]()
 

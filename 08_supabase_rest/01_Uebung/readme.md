@@ -1,6 +1,6 @@
 # Supabase SQL Übungen
 
-In diesem Dokument findest du Übungen, die dir helfen sollen, SQL-Operationen auf der Supabase-Plattform zu verstehen und zu üben. Die Übungen basieren auf einer (fiktiven) Film-Datenbank mit Tabellen für Filme, Regisseure, Schauspieler und einer Relationstabelle für Filme und Schauspieler.
+In diesem Dokument findest du Übungen, um SQL-Operationen mit der Supabase-API (JavaScript-Schnittstelle) zu verstehen und zu üben. Die Übungen basieren auf einer (kleinen) Film-Datenbank mit Tabellen für Filme, Regisseure, Schauspieler und einer Relationstabelle für Filme und Schauspieler.
 
 ## Datenbankschema
 

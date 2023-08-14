@@ -1,0 +1,1 @@
+# Hier kommt der Walkthrough, wie man ein Supabase Projekt aufsetzt
