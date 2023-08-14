@@ -1,6 +1,6 @@
 import { supa } from "../../00_setup/supabase.js";
 
-console.log("08 Übung Supabase REST API CRUD")
+console.log("08 Übungsdatei verbunden")
 
 // 1. **Alle Filme abrufen**: Hole alle Spalten aller Filme aus der Tabelle `movies`.
 
@@ -10,4 +10,6 @@ async function ex_1() {
     return data;
   }
 
-console.log(ex_1());
+console.log('ex_1', ex_1());
+
+// kopiere diesen Code mit dem console.log() für die weiteren Übungen

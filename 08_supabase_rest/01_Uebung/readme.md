@@ -1,17 +1,19 @@
 # Supabase SQL Übungen
 
-In diesem Dokument findest du Übungen, die dir helfen sollen, SQL-Operationen auf der Supabase-Plattform zu verstehen und zu üben. Die Übungen basieren auf einer fiktiven Film-Datenbank mit Tabellen für Filme, Regisseure, Schauspieler und einer Relationstabelle für Filme und Schauspieler.
+In diesem Dokument findest du Übungen, die dir helfen sollen, SQL-Operationen auf der Supabase-Plattform zu verstehen und zu üben. Die Übungen basieren auf einer (fiktiven) Film-Datenbank mit Tabellen für Filme, Regisseure, Schauspieler und einer Relationstabelle für Filme und Schauspieler.
 
 ## Datenbankschema
 
 - `movies`: Enthält Filmdetails, wobei jeder Film einem Regisseur zugeordnet ist.
 - `directors`: Enthält Details zu Filmregisseuren.
-- `actors`: Enthält Details zu Filmschauspielern.
+- `actors`: Enthält Details zu Filmschauspielenden.
 - `movie_actors`: Eine Relationstabelle, die eine many-to-many-Beziehung zwischen Filmen und Schauspielern herstellt.
 
 ## Übungen
 
 ### Basic
+
+#### Select
 
 1. **Alle Filme abrufen**: Hole alle Spalten aller Filme aus der Tabelle `movies`.
    
@@ -21,38 +23,50 @@ In diesem Dokument findest du Übungen, die dir helfen sollen, SQL-Operationen a
 
 4. **Filme zählen**: Ermittle, wie viele Filme Quentin Tarantino gedreht hat.
 
+#### Insert
+
 5. **Schauspieler einfügen**: Füge bekannte Schauspieler in die Tabelle `actors` ein.
 
-6. **Schauspieler löschen**: Lösche einen bestimmten Schauspieler.
+8. **Einen neuen Film hinzufügen**: Füge einen neuen Film zur Tabelle `movies` hinzu.
 
-6. **Schauspieler mit Filmen verlinken**: Verlinke Schauspieler mit bestimmten Filmen mithilfe der Verbindungstabelle `movie_actors`.
+#### Update
+6. **Aktualisierungen**: Ändere das Genre eines bestimmten Films und überprüfe die Änderung.
 
-17. **Aktualisierungen**: Ändere das Genre eines bestimmten Films und überprüfe die Änderung.
+10. **Regisseur aktualisieren**: Ändere den Namen eines bestimmten Regisseurs.
+
+#### Delete
+7. **Schauspieler löschen**: Lösche einen bestimmten Schauspieler.
+
+9. **Einen Film löschen**: Entferne einen Film aus der Tabelle `movies`.
 
 ### Intermediate
 
-7. **Tabellen verknüpfen**: Rufe alle Filme zusammen mit den vollständigen Namen ihrer jeweiligen Regisseure ab.
+11. **Tabellen verknüpfen**: Rufe alle Filme zusammen mit den vollständigen Namen ihrer jeweiligen Regisseure ab.
 
-8. **Mit Verknüpfungen filtern**: Rufe alle Filme ab, die von amerikanischen Regisseuren gedreht wurden.
+12. **Mit Verknüpfungen filtern**: Rufe alle Filme ab, die von amerikanischen Regisseuren gedreht wurden.
 
-9. **Datumsoperationen**: Liste alle Filme auf, die vor dem Jahr 2000 veröffentlicht wurden.
+13. **Datumsoperationen**: Liste alle Filme auf, die vor dem Jahr 2000 veröffentlicht wurden.
 
-10. **Zeichenkettenmanipulationen**: Finde alle Regisseure, deren Vorname ODER Nachname mit dem Buchstaben 'C' beginnt.
+14. **Zeichenkettenmanipulationen**: Finde alle Regisseure, deren Vorname ODER Nachname mit dem Buchstaben 'C' beginnt.
 
-11. **Schauspieler für einen Film abrufen**: Liste alle Schauspieler für einen bestimmten Film auf.
+15. **Schauspieler für einen Film abrufen**: Liste alle Schauspieler für einen bestimmten Film auf.
 
-12. **Filme für einen Schauspieler abrufen**: Liste alle Filme auf, in denen ein bestimmter Schauspieler mitgewirkt hat.
+16. **Filme für einen Schauspieler abrufen**: Liste alle Filme auf, in denen ein bestimmter Schauspieler mitgewirkt hat.
 
-13. **Filme für jeden Schauspieler zählen**: Zähle, in wie vielen Filmen jeder Schauspieler mitgewirkt hat.
+17. **Filme für jeden Schauspieler zählen**: Zähle, in wie vielen Filmen jeder Schauspieler mitgewirkt hat.
 
 ### Advanced
 
-14. **Aggregation**: Ermittle, wie viele Filme jeder Regisseur gedreht hat, und ordne das Ergebnis nach der Anzahl der Filme in absteigender Reihenfolge.
+18. **Schauspieler mit Filmen verlinken**: Verlinke Schauspieler mit bestimmten Filmen mithilfe der Relationstabelle `movie_actors`.
 
-16. **Case-Anweisungen**: Kategorisiere Filme anhand ihrer Veröffentlichungsdaten (z.B. vor 2010 als 'Alt') und zähle die Anzahl in jeder Kategorie.
+19. **Aggregation**: Ermittle, wie viele Filme jeder Regisseur gedreht hat, und ordne das Ergebnis nach der Anzahl der Filme in absteigender Reihenfolge.
 
-18. **Löschungen mit Bedingungen**: Lösche alle Filme eines bestimmten Regisseurs und entferne dann den Eintrag des Regisseurs.
+20. **Case-Anweisungen**: Kategorisiere Filme anhand ihrer Veröffentlichungsdaten (z.B. vor 2010 als 'Alt') und zähle die Anzahl in jeder Kategorie.
 
-20. **Schauspieler, die mit einem bestimmten Regisseur gearbeitet haben**: Ermittle Schauspieler, die in mindestens einem Film von Quentin Tarantino mitgewirkt haben.
+21. **Löschungen mit Bedingungen**: Lösche alle Filme eines bestimmten Regisseurs und entferne dann den Eintrag des Regisseurs.
 
-21. **Beziehungen löschen**: Ein Schauspieler entscheidet sich, in den Ruhestand zu treten und möchte, dass alle seine Verbindungen zu Filmen entfernt werden. Lösche die Verbindungen des Schauspielers aus `movie_actors`, ohne die Filme oder den individuellen Eintrag des Schauspielers zu entfernen.
+22. **Schauspieler, die mit einem bestimmten Regisseur gearbeitet haben**: Ermittle Schauspieler, die in mindestens einem Film von Quentin Tarantino mitgewirkt haben.
+
+23. **Beziehungen löschen**: Ein Schauspieler entscheidet sich, in den Ruhestand zu treten und möchte, dass alle seine Verbindungen zu Filmen entfernt werden. Lösche die Verbindungen des Schauspielers aus `movie_actors`, ohne die Filme oder den individuellen Eintrag des Schauspielers zu entfernen.
+
+Viel Erfolg bei den Übungen!
