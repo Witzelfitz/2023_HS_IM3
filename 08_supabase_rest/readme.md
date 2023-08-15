@@ -5,7 +5,7 @@
 
 ## Hands-On
 
-- [Walkthrough Supabase Projekt-Aufsetzen](02_Unterlagen/walkthrough.md)
+- [Walkthrough Supabase-Projekt Aufsetzen](02_Unterlagen/walkthrough.md)
 - [Link Verbindungsdaten fürs Setup kopieren](https://supabase.com/dashboard/project/acojzxdhnsvgamrqtbhn/settings/api)
 - [Übung Film-Datenbank]()
 
