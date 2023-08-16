@@ -32,8 +32,9 @@ Dieses Tutorial besteht aus 3 Kapiteln und
 
 2.  1. Gib dem Projekt einen Namen. Bspw. IM3
     2. Setze ein starkes Passwort. Es wird empfohlen, dieses automatisch zu generieren. Für unseren Anwendungsfall musst du das Passwort nirgendwo speichern.
-    2. Wähle die Region aus, in der die Daten gespeichert werden sollen. Hier macht es Sinn die Region auszuwählen, die am nächsten bei dir ist.
-    3. Klicke auf den Button "Create Project"
+    3. Wähle die Region aus, in der die Daten gespeichert werden sollen. Hier macht es Sinn die Region auszuwählen, die am nächsten bei dir ist.
+    4. Wähle den Gratis-Plan aus.
+    5. Klicke auf den Button "Create Project"
 
 ![Screenshot](../../assets/Supabase_Tutorial_6.png)
 
@@ -41,7 +42,7 @@ Dieses Tutorial besteht aus 3 Kapiteln und
 
 ![Screenshot](../../assets/Supabase_Tutorial_7.png)
 
-## Verbindungsdaten für die Supabase kopieren
+## Mit Supabase verbinden
 
 1. Klicke auf das kleine Zahnrad in der linken unteren Ecke in der Navigation.
 
