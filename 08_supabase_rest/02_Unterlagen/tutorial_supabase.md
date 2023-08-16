@@ -42,7 +42,9 @@ Dieses Tutorial besteht aus 3 Kapiteln und
 
 ![Screenshot](../../assets/Supabase_Tutorial_7.png)
 
-## Mit Supabase verbinden
+## Mit Supabase verbinden & Verbindung testen
+
+### Verbindungsdaten kopieren
 
 1. Klicke auf das kleine Zahnrad in der linken unteren Ecke in der Navigation.
 
@@ -59,7 +61,38 @@ Dieses Tutorial besteht aus 3 Kapiteln und
 
 ![Screenshot](../../assets/Supabase_Tutorial_9.png)
 
-4. In `supabase_vorlage.js` kannst du die beiden Variablen `supabaseUrl` und `supabaseKey` mit den kopierten Werten ersetzen. 
+4. Ersetze in `supabase_vorlage.js` die beiden Variablen `supabaseUrl` und `supabaseKey` mit den kopierten Werten. 
 
-**Wichtig:** Damit das File in diesem Übungsordner richtig funktioniert, bennene es zu `supabase.js` um.
+5. Benenne die Datei `supabase_vorlage.js` zu `supabase.js` um. Ansonsten wird diese nicht erkannt.
 
+Um die Datenbank-Verbindung zu testen, importieren wir einen ersten Datensatz in unser Projekt.
+
+### Datensatz importieren
+
+1. Vom Supabase Dashboard, klicke links in der Navigation auf den 'SQL-Editor'.
+
+![Screenshot](../../assets/Supabase_Tutorial_10.png)
+
+2. Wenn du den Editor geöffnet hast, gehe in deinen Projektordner und öffne im Ordner `00_setup` das Dokument `movies.sql`. 
+
+![Screenshot](../../assets/Supabase_Tutorial_11.png)
+
+3. Kopiere den Inhalt aus `movies.sql` und füge ihn in den SQL-Editor ein. Klicke dann auf den Button "Run". Die Nachricht "Success. No rows returned." sollte erscheinen.
+
+![Screenshot](../../assets/Supabase_Tutorial_12.png)
+
+4. Trotz der erfreulichen Nachricht kontrollieren wir, ob unsere Tabellen tatsächlich importiert wurden. Klicke dazu links in der Navigation auf den Abschnitt "Tables" und dann auf die Tabelle "movies".
+
+![Screenshot](../../assets/Supabase_Tutorial_13.png)
+
+Sieht gut aus, die Tabelle ist befüllt!
+
+### Datenbankverbindung testen
+
+1. Um die Datenbankverbindung zu testen, öffne VS Code. Klicke links auf die Datei ` 00_setup.html` und starte mit Rechtsklick den Live-Server.
+
+**Tipp:** Falls die Option Live-Server nicht erscheint, musst du zuerst die Live-Server Extension installieren. Klicke dazu auf das Extensions-Symbol in der linken Navigation und suche nach "Live Server". Installiere die Extension und starte VS Code neu.
+
+![Screenshot](../../assets/Supabase_Tutorial_14.png)
+
+2. Öffne nun die Browser-Konsole. Wenn alles geklappt hat, werden in der Zeile `Alle Filme in der DB:` bei Klick auf  `Promise {<pending>}` und anschliessendem Klick auf `Array(11)` alle Spalten der Tabelle `movies` angezeigt.
