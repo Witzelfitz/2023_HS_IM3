@@ -11,7 +11,7 @@ In diesem Dokument findest du Übungen, um SQL-Operationen mit der Supabase-API 
 
 ## Datenbank Importieren
 
-Bevor du mit den Übungen beginnst, importiere die [Film-Datenbank](../02_Unterlagen/movies.sql) in dein Supabase-Projekt. Kopiere dafür den SQL-Code und füge diesen im `SQL-Editor` im Supabase Dashboard ein.
+Falls noch nicht geschehen, importiere die [Film-Datenbank]() in dein Supabase-Projekt. Kopiere dafür den SQL-Code und füge diesen im `SQL-Editor` im Supabase Dashboard ein.
 
 ## Übungen
 
