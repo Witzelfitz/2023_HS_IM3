@@ -44,8 +44,6 @@ Dieses Tutorial besteht aus 3 Kapiteln und
 
 ## Mit Supabase verbinden & Verbindung testen
 
-Nun wollen wir unser Projekt mit Supabase verbinden. Dazu müssen wir die Verbindungsdaten kopieren und in unserem Projekt einfügen, einen Datensatz importieren und die Verbindung testen.
-
 ### Verbindungsdaten kopieren
 
 1. Klicke auf das kleine Zahnrad in der linken unteren Ecke in der Navigation.
@@ -98,7 +96,3 @@ Sieht gut aus, die Tabelle ist befüllt!
 ![Screenshot](../../assets/Supabase_Tutorial_14.png)
 
 2. Öffne nun die Browser-Konsole. Wenn alles geklappt hat, werden in der Zeile `Alle Filme in der DB:` bei Klick auf  `Promise {<pending>}` und anschliessendem Klick auf `Array(11)` alle Spalten der Tabelle `movies` angezeigt.
-
-![Screenshot](../../assets/Supabase_Tutorial_15.png)
-
-Du hast dein Projekt erfolgreich mit Supabase verbunden! Gratuliere!
