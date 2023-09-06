@@ -1,7 +1,5 @@
 # Supabase Tutorial
 
-Dieses Tutorial besteht aus 3 Kapiteln und 
-
 ## Einen Account erstellen
 
 1. Gehe auf [supabase.io](https://supabase.io/) und klicke auf den Button "Start your project".
