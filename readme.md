@@ -39,4 +39,8 @@ Dieses Kapitel enthält die Übungen zur Authentifizierung mit Supabase. Es werd
 
 #### 04 Security
 
+Thema noch in Arbeit ...
+
 #### 05 File Uploads
+
+Thema noch in Arbeit ...

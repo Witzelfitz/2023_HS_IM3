@@ -1,8 +1,14 @@
 # Supabase SQL Übungen
 
-In diesem Dokument findest du Übungen, um SQL-Operationen mit der Supabase-API (JavaScript-Schnittstelle) zu verstehen und zu üben. Die Übungen basieren auf einer (kleinen) Film-Datenbank mit Tabellen für Filme, Regisseure, Schauspieler und einer Relationstabelle für Filme und Schauspieler.
+In diesem Dokument findest du Übungen, um SQL-Operationen (Read, Insert, Update, Delete) zu verstehen und zu üben. Der SQL-Code wird direkt im Supabase-Dashboard geschrieben und nicht in einem HTML bzw. JavaScript-File.
+
+![Screenshot](../assets/Supabase_SQL_1.png)
+
+[Link zum Supabase Dashboard](https://app.supabase.io/)
 
 ## Datenbankschema
+
+Die Übungen basieren auf einer (kleinen) Film-Datenbank mit Tabellen für Filme, Regisseure, Schauspieler und einer Relationstabelle für Filme und Schauspieler.
 
 - `movies`: Enthält Filmdetails, wobei jeder Film einem Regisseur zugeordnet ist.
 - `directors`: Enthält Details zu Filmregisseuren.
@@ -11,7 +17,9 @@ In diesem Dokument findest du Übungen, um SQL-Operationen mit der Supabase-API 
 
 ## Datenbank Importieren
 
-Falls noch nicht geschehen, importiere die [Film-Datenbank]() in dein Supabase-Projekt. Kopiere dafür den SQL-Code und füge diesen im `SQL-Editor` im Supabase Dashboard ein.
+Falls noch nicht geschehen, importiere die [Film-Datenbank](../00_setup/movies.sql) in dein Supabase-Projekt. Kopiere dafür den SQL-Code und füge diesen im `SQL-Editor` im Supabase Dashboard ein.
+
+![Screenshot](../assets/Supabase_Import_1.png)
 
 ## Übungen
 
@@ -29,21 +37,21 @@ Falls noch nicht geschehen, importiere die [Film-Datenbank]() in dein Supabase-P
 
 #### Insert
 
-5. **Schauspieler einfügen**: Füge bekannte Schauspieler in die Tabelle `actors` ein.
+5. **Schauspieler einfügen**: Füge Rowan Atkinson (06.01.1955, British) in die Tabelle `actors` ein.
 
-6. **Einen neuen Film hinzufügen**: Füge einen neuen Film zur Tabelle `movies` hinzu.
+6. **Einen neuen Film hinzufügen**: Füge den Film 'The Hateful Eight' von Quentin Tarantino zur Tabelle `movies` hinzu. (Genre: Western, Rating: R, Veröffentlichungsdatum: 25.12.2015)
 
 #### Update
 
-7. **Aktualisierungen**: Ändere das Genre eines bestimmten Films und überprüfe die Änderung.
+7. **Aktualisierungen**: Ändere das Genre von 'Django Unchained' auf 'Action'.
 
-8. **Regisseur aktualisieren**: Ändere den Namen eines bestimmten Regisseurs.
+8. **Regisseur aktualisieren**: Ändere den Namen von 'Quentin Tarantino' auf 'Tentin Quarantino'.
 
 #### Delete
 
-9. **Schauspieler löschen**: Lösche einen bestimmten Schauspieler.
+9. **Schauspieler löschen**: Lösche Rowan Atkinson aus der Tabelle `actors`.
 
-### Intermediate
+### Advanced
 
 10. **Tabellen verknüpfen**: Rufe alle Filme zusammen mit den vollständigen Namen ihrer jeweiligen Regisseure ab.
 
@@ -51,20 +59,12 @@ Falls noch nicht geschehen, importiere die [Film-Datenbank]() in dein Supabase-P
 
 12. **Datumsoperationen**: Liste alle Filme auf, die vor dem Jahr 2000 veröffentlicht wurden.
 
-13. **Zeichenkettenmanipulationen**: Finde alle Regisseure, deren Vorname ODER Nachname mit dem Buchstaben 'C' beginnt.
+13. **LIKE Operator**: Finde alle Regisseure, deren Vorname ODER Nachname mit dem Buchstaben 'C' beginnt.
 
-14. **Schauspieler für einen Film abrufen**: Liste alle Schauspieler für einen bestimmten Film auf.
+14. **Aggregation**: Ermittle, wie viele Filme jeder Regisseur gedreht hat, und ordne das Ergebnis nach der Anzahl der Filme in absteigender Reihenfolge.
 
-15. **Filme für einen Schauspieler abrufen**: Liste alle Filme auf, in denen ein bestimmter Schauspieler mitgewirkt hat.
+15. **Case-Anweisungen**: Kategorisiere Filme anhand ihrer Veröffentlichungsdaten (vor 2010 als 'Alt', nach 2010 als 'Neu') und zähle die Anzahl in jeder Kategorie.
 
-16. **Filme für jeden Schauspieler zählen**: Zähle, in wie vielen Filmen jeder Schauspieler mitgewirkt hat.
 
-### Advanced
-
-17. **Schauspieler mit Filmen verlinken**: Verlinke Schauspieler mit bestimmten Filmen mithilfe der Relationstabelle `movie_actors`.
-
-18. **Aggregation**: Ermittle, wie viele Filme jeder Regisseur gedreht hat, und ordne das Ergebnis nach der Anzahl der Filme in absteigender Reihenfolge.
-
-19. **Case-Anweisungen**: Kategorisiere Filme anhand ihrer Veröffentlichungsdaten (z.B. vor 2010 als 'Alt') und zähle die Anzahl in jeder Kategorie.
-
-20. **Löschungen mit Bedingungen**: Lösche alle Filme eines bestimmten Regisseurs und entferne dann den Eintrag des Regisseurs.
+## Lösungen
+Zu den Lösungen geht es [hier](solution.md).

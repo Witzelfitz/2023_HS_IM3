@@ -1,5 +1,11 @@
 # Supabase Tutorial
 
+Kapitelübersicht:
+
+- [Account erstellen](#account-erstellen)
+- [Neues Projekt erstellen](#neues-projekt-erstellen)
+- [Mit Supabase verbinden & Verbindung testen](#mit-supabase-verbinden--verbindung-testen)
+
 ## Account erstellen
 
 1. Gehe auf [supabase.io](https://supabase.io/) und klicke auf den Button "Start your project".
@@ -43,6 +49,16 @@
 ## Mit Supabase verbinden & Verbindung testen
 
 Nun wollen wir unser Projekt mit Supabase verbinden. Dazu müssen wir die Verbindungsdaten kopieren und in unserem Projekt einfügen, einen Datensatz importieren und die Verbindung testen.
+
+### Ordnerstruktur herunterladen
+
+1. Lade die gesamte Ordnerstruktur für das Projekt herunter. Klicke dazu auf [GitHub](https://github.com/Interaktive-Medien/2023_HS_IM3) auf den Button "Code" und wähle "Download ZIP".
+
+![Screenshot](../assets/Supabase_Tutorial_16.png)
+
+2. Entpacke den Ordner und öffne ihn in VS Code.
+
+**Tipp:** Arbeite für dieses Tutorial lokal, bis die Verbindung mit der Datenbank geklappt hat. So vermeidest du zusätzliche Fehlerquellen bspw. beim Upload der Files auf den Webserver. Sobald du die Verbindung mit der Datenbank erfolgreich getestet hast, kannst du die Dateien auf den Webserver hochladen und den automatischen FTP-Upload einrichten.
 
 ### Verbindungsdaten kopieren
 

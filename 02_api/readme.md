@@ -29,21 +29,21 @@ Falls noch nicht geschehen, importiere die [Film-Datenbank]() in dein Supabase-P
 
 #### Insert
 
-5. **Schauspieler einfügen**: Füge bekannte Schauspieler in die Tabelle `actors` ein.
+5. **Schauspieler einfügen**: Füge Rowan Atkinson (06.01.1955, British) in die Tabelle `actors` ein.
 
-6. **Einen neuen Film hinzufügen**: Füge einen neuen Film zur Tabelle `movies` hinzu.
+6. **Einen neuen Film hinzufügen**: Füge den Film 'The Hateful Eight' von Quentin Tarantino zur Tabelle `movies` hinzu. (Genre: Western, Rating: R, Veröffentlichungsdatum: 25.12.2015)
 
 #### Update
 
-7. **Aktualisierungen**: Ändere das Genre eines bestimmten Films und überprüfe die Änderung.
+7. **Aktualisierungen**: Ändere das Genre von 'Django Unchained' auf 'Action'.
 
-8. **Regisseur aktualisieren**: Ändere den Namen eines bestimmten Regisseurs.
+8. **Regisseur aktualisieren**: Ändere den Namen von 'Quentin Tarantino' auf 'Tentin Quarantino'.
 
 #### Delete
 
-9. **Schauspieler löschen**: Lösche einen bestimmten Schauspieler.
+9. **Schauspieler löschen**: Lösche Rowan Atkinson aus der Tabelle `actors`.
 
-### Intermediate
+### Advanced
 
 10. **Tabellen verknüpfen**: Rufe alle Filme zusammen mit den vollständigen Namen ihrer jeweiligen Regisseure ab.
 
@@ -51,20 +51,8 @@ Falls noch nicht geschehen, importiere die [Film-Datenbank]() in dein Supabase-P
 
 12. **Datumsoperationen**: Liste alle Filme auf, die vor dem Jahr 2000 veröffentlicht wurden.
 
-13. **Zeichenkettenmanipulationen**: Finde alle Regisseure, deren Vorname ODER Nachname mit dem Buchstaben 'C' beginnt.
+13. **LIKE Operator**: Finde alle Regisseure, deren Vorname ODER Nachname mit dem Buchstaben 'C' beginnt.
 
-14. **Schauspieler für einen Film abrufen**: Liste alle Schauspieler für einen bestimmten Film auf.
+14. **Aggregation**: Ermittle, wie viele Filme jeder Regisseur gedreht hat, und ordne das Ergebnis nach der Anzahl der Filme in absteigender Reihenfolge.
 
-15. **Filme für einen Schauspieler abrufen**: Liste alle Filme auf, in denen ein bestimmter Schauspieler mitgewirkt hat.
-
-16. **Filme für jeden Schauspieler zählen**: Zähle, in wie vielen Filmen jeder Schauspieler mitgewirkt hat.
-
-### Advanced
-
-17. **Schauspieler mit Filmen verlinken**: Verlinke Schauspieler mit bestimmten Filmen mithilfe der Relationstabelle `movie_actors`.
-
-18. **Aggregation**: Ermittle, wie viele Filme jeder Regisseur gedreht hat, und ordne das Ergebnis nach der Anzahl der Filme in absteigender Reihenfolge.
-
-19. **Case-Anweisungen**: Kategorisiere Filme anhand ihrer Veröffentlichungsdaten (z.B. vor 2010 als 'Alt') und zähle die Anzahl in jeder Kategorie.
-
-20. **Löschungen mit Bedingungen**: Lösche alle Filme eines bestimmten Regisseurs und entferne dann den Eintrag des Regisseurs.
+15. **Case-Anweisungen**: Kategorisiere Filme anhand ihrer Veröffentlichungsdaten (vor 2010 als 'Alt', nach 2010 als 'Neu') und zähle die Anzahl in jeder Kategorie.
