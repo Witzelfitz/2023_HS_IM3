@@ -1,6 +1,6 @@
 # Supabase Tutorial
 
-## Einen Account erstellen
+## Account erstellen
 
 1. Gehe auf [supabase.io](https://supabase.io/) und klicke auf den Button "Start your project".
 
@@ -22,7 +22,7 @@
 
 ![Screenshot](../assets/Supabase_Tutorial_5.png)
 
-## Ein neues Projekt erstellen
+## Neues Projekt erstellen
 
 1. Klicke im Dashboard auf den grünen Button "New Project" und wähle deine Organisation aus.
 

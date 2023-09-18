@@ -23,7 +23,7 @@ Falls noch nicht geschehen, importiere die [Film-Datenbank]() in dein Supabase-P
    
 2. **Nach Genre filtern**: Rufe alle Filme ab, die dem Genre "Action" gehören.
 
-3. **Ergebnisse sortieren**: Rufe alle Regisseure ab. Ordne das Ergebnis nach ihrem Geburtsdatum `birth_date` in absteigender Reihenfolge.
+3. **Ergebnisse sortieren**: Rufe alle Regisseure ab. Ordne sie nach ihrem Geburtsdatum `birth_date` in absteigender Reihenfolge.
 
 4. **Filme zählen**: Ermittle, wie viele Filme Quentin Tarantino gedreht hat.
 
