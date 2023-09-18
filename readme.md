@@ -35,12 +35,16 @@ Dieses Kapitel enthält die Übungen zur Authentifizierung mit Supabase. Es werd
 - Magic Link
 - Email/Password
 
-**Achtung:** die Authentifizierung funktioniert momentan nur, wenn die Übung auf dem Root (obersten Verzeichnis) des Servers liegt.
+**Achtung:** die Authentifizierung funktioniert momentan nur, wenn die Übung auf dem Root (obersten Verzeichnis) des Servers liegt. Dort ist der entsprechende Code in der [index.html](index.html) Datei abgelegt und kann ein- resp. auskommentiert werden.
 
 #### 04 Security
+
+Datenbanksicherheit mit Row-Level-Security (RLS) und Policies.
 
 Thema noch in Arbeit ...
 
 #### 05 File Uploads
+
+File Uploads und Storage mit Supabase.
 
 Thema noch in Arbeit ...
