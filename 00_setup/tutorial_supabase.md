@@ -2,11 +2,11 @@
 
 Kapitelübersicht:
 
-- [Account erstellen](#account-erstellen)
-- [Neues Projekt erstellen](#neues-projekt-erstellen)
-- [Mit Supabase verbinden & Verbindung testen](#mit-supabase-verbinden--verbindung-testen)
+1. [Account erstellen](#1-account-erstellen)
+2. [Neues Projekt erstellen](#2-neues-projekt-erstellen)
+3. [Mit Supabase verbinden & Verbindung testen](#3-mit-supabase-verbinden--verbindung-testen)
 
-## Account erstellen
+## 1. Account erstellen
 
 1. Gehe auf [supabase.io](https://supabase.io/) und klicke auf den Button "Start your project".
 
@@ -28,7 +28,7 @@ Kapitelübersicht:
 
 ![Screenshot](../assets/Supabase_Tutorial_5.png)
 
-## Neues Projekt erstellen
+## 2. Neues Projekt erstellen
 
 1. Klicke im Dashboard auf den grünen Button "New Project" und wähle deine Organisation aus.
 
@@ -42,11 +42,11 @@ Kapitelübersicht:
 
 ![Screenshot](../assets/Supabase_Tutorial_6.png)
 
-3. Wenn das Projekt erfolgreich erstellt wurde, siehst du das Dashboard mit deinem Projekt.
+3. Wenn das Projekt erfolgreich erstellt wurde, siehst du diese Seite.
 
-![Screenshot](../assets/Supabase_Tutorial_7.png)
+![Screenshot](../assets/Supabase_Tutorial_52.png)
 
-## Mit Supabase verbinden & Verbindung testen
+## 3. Mit Supabase verbinden & Verbindung testen
 
 Nun wollen wir unser Projekt mit Supabase verbinden. Dazu müssen wir die Verbindungsdaten kopieren und in unserem Projekt einfügen, einen Datensatz importieren und die Verbindung testen.
 
@@ -62,9 +62,10 @@ Nun wollen wir unser Projekt mit Supabase verbinden. Dazu müssen wir die Verbin
 
 ### Verbindungsdaten kopieren
 
-1. Klicke auf das kleine Zahnrad in der linken unteren Ecke in der Navigation.
+1. Klicke auf das kleine Zahnrad in der linken unteren Ecke in der Navigation. 
 
 ![Screenshot](../assets/Supabase_Tutorial_7.png)
+(Falls du noch keine Tabellen in der Datenbank hast, kann es sein, dass dieser Screen etwas anders aussieht.)
 
 2. Klicke dann auf den Abschnitt API in der Navigation links.
 
