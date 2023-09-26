@@ -15,6 +15,9 @@ Die Übungen basieren auf einer (kleinen) Film-Datenbank mit Tabellen für Filme
 - `actors`: Enthält Details zu Filmschauspielenden.
 - `movie_actors`: Eine Relationstabelle, die eine many-to-many-Beziehung zwischen Filmen und Schauspielern herstellt.
 
+![Screenshot](../assets/Supabase_Movies_Schema.png)
+
+
 ## Datenbank Importieren
 
 Falls noch nicht geschehen, importiere die [Film-Datenbank](../00_setup/movies.sql) in dein Supabase-Projekt. Kopiere dafür den SQL-Code und füge diesen im `SQL-Editor` im Supabase Dashboard ein.
