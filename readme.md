@@ -39,12 +39,8 @@ Dieses Kapitel enthält die Übungen zur Authentifizierung mit Supabase. Es werd
 
 #### 04 Security
 
-Datenbanksicherheit mit Row-Level-Security (RLS) und Policies.
-
-Thema noch in Arbeit ...
+Es gibt keinen Code zu diesem Thema. Bloss die Präsentation auf Moodle.
 
 #### 05 File Uploads
 
-File Uploads und Storage mit Supabase.
-
-Thema noch in Arbeit ...
+Dieses Kapitel enthält Code-Schnipsel zu File Uploads mit Supabase.
