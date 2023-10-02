@@ -9,7 +9,10 @@ Damit die Übungen mit deinem Supabase-Projekt funktionieren, musst du folgende 
 
 - Erstelle einen Bucket `photos` (klein geschrieben)
 
-## Beispiel 1
+## Übungen
 
-`ex_1_fileupload.html` und `ex_1_fileupload.js` zeigen, wie Bilder in den Bucket hochgeladen werden können.
+- `ex_1_fileupload` demonstriert, wie Bilder in einen Bucket hochgeladen werden können und die URL der hochgeladenen Bilder in einer Datenbanktabelle gespeichert wird.
 
+- `ex_2_showphotos` demonstriert, wie Bilder aus dem Bucket angezeigt werden können. Wir müssen hierzu mit sogenannten signed URLs arbeiten, da unser Bucket nicht öffentlich zugänglich ist.
+
+- `ex_3_deletephotos` demonstriert, wie Bilder aus dem Bucket wieder gelöscht werden können.
