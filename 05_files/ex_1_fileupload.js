@@ -25,7 +25,6 @@ async function uploadPhoto() {
       // Save the file metadata to the 'Photos' table
       const { data, error } = await supa.from('Photos').insert([
           {
-              user_id: 1,
               url: filePath,
               caption: captionInput.value
           }
