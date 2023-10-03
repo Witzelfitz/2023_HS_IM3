@@ -26,7 +26,7 @@ Dieses Kapitel enthält die Übungen zu SQL. Der SQL-Code wird direkt im Supabas
 
 Dieses Kapitel enthält die gleichen Übungen wie das vorherige Kapitel. Nun wird statt mit SQL mit der Supabase-API gearbeitet. Der Code wird im JavaScript-File innerhalb des Kapitels geschrieben.
 
-[Link zu den API Übungen](02_api/readme.md)
+[Link zu den JavaScript Übungen und Beispielen](02_api/readme.md)
 
 #### 03 Authentifizierung
 
