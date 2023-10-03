@@ -3,24 +3,24 @@ import { supa } from "../../00_setup/supabase.js";
 
 console.log("Hello World");
 
-async function ex_1() {
-    const { data, error } = await supa.from("movies").select("title"); // Only select the 'title' column
+async function getAllDirectors() {
+    const { data, error } = await supa.from("actors").select("first_name, last_name");
 
     return data;
 }
 
-async function displayMovieTitles() {
-    const movies = await ex_1(); // Fetch the movies
-    const movieListElement = document.getElementById("movieList");
+async function displayDirectors() {
+    const directors = await getAllDirectors();
+    const directorListElement = document.getElementById("directorList"); // Assuming you have an HTML element with id="directorList"
 
-    // Loop through the movies and add each title to the <ul> element
-    movies.forEach((movie) => {
+    directors.forEach((director) => {
+        const fullName = `${director.first_name} ${director.last_name}`;
         const li = document.createElement("li");
-        li.textContent = movie.title;
-        movieListElement.appendChild(li);
+        li.textContent = fullName;
+        directorListElement.appendChild(li);
     });
 }
 
-// Call the function to display movie titles
-displayMovieTitles();
+// Call the function to display director names
+displayDirectors();
 
