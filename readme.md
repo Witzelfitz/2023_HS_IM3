@@ -1,4 +1,5 @@
 # Interaktive Medien 3 - HS2023
+Version 1.0.0 by Benjamin Hanimann
 
 ## Block Supabase
 
